@@ -3,5 +3,13 @@ body {
 }
 
 #card {
-    height: 18rem;
+    height: 8rem;
+}
+
+#dropdown {
+    height: 3rem;
+}
+
+#dropdown-menu {
+    width: 111rem;
 }
