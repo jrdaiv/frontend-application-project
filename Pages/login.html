@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
 <head>
     <title>Title</title>
@@ -24,14 +24,12 @@
         text-align: center;
     }
     section {
-        text-align: center;
-        background-color: rgb(227, 248, 241);
+        text-align: start;
         margin: 22px;
     }
 </style>
 
-<h2>Login</h2>
-
+<h2 class="text-warning">Login</h2>
 
 
 <body>
@@ -42,7 +40,7 @@
     <main>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Login</a>
+                <a class="text-warning" href="#">Login</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -60,26 +58,31 @@
     </main>
     <section class="home container-fluid">
         <!-- Basic form using form-control -->
-        <div class="form-group">
-            <label for="usernameInput">UserName:</label>
+        <div class="mb-3 mt-3">
+            <label for="usernameInput" class="text-warning">UserName:</label>
             <input type="username" class="form-control" id="username" aria-describedby="username"
                 placeholder="Enter username" />
-            <small id="emailHelp" class="form-text text-muted">We'll never share your username with anyone else.</small>
+            <small id="username" class="text-warning">We'll never share your username with anyone else.</small>
         </div>
 
         <br>
 
         <section class="home container-fluid">
             <!-- Basic form using form-control -->
-            <div class="form-group">
-                <label for="emailInput">Email adress:</label>
+            <div class="mb-3">
+                <label for="emailInput" class="text-warning">Email adress:</label>
                 <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp"
                     placeholder="Enter email" />
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                <small id="emailHelp" class="text-warning">We'll never share your email with anyone
                     else.</small>
             </div>
+        </div>
+        <div class="form-check mb-3">
+          <label class="text-warning">
+            <input class="form-check-input" type="checkbox" name="remember"> Remember me</label>
+        </div>
             <br>
-            <button type="login" class="btn btn-primary">Login</button>
+            <button type="button" class="btn btn-warning">Login</button>
             </form>
 
 
