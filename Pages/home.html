@@ -1,176 +1,296 @@
 <!doctype html>
-<html lang="en">
-    <head>
-        <title>Title</title>
-        <!-- Required meta tags -->
-        <meta charset="utf-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
+<html lang="en" data-bs-theme="dark">
 
-        <!-- Bootstrap CSS v5.2.1 -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-    </head>
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
-                <div class="container-fluid ">
-                    <a class="navbar-brand" href="#">
-                        <img src="/pics/pic1.jpg" alt="img" style="width:40px;" class="rounded-pill"> 
-                      </a>
-                    <a href="#" class="navbar-brand ">Tas<span class="span text-success">k'd</span></a>
-                    <div class="collapse navbar-collapse " id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link active " aria-current="page"></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="/Pages/home.html"><span class="span text-warning">Ho</span>me</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link text-white" href="#about"><span class="span text-warning">Ab</span>out</a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link disabled text-white" href="#"><span class="span text-warning">Con</span>tact</a>
-                              </li>
-                              <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"><span class="span text-warning">Dash</span>board</a>
-                                <ul class="dropdown-menu bg-dark">
-                                  <li><a class="dropdown-item text-white" href="/Pages/task_dashboard.html">Tasks</a></li>
-                                  <li><a class="dropdown-item text-white" href="/Pages/task_details.html">Task Details</a></li>
-                                  <li><a class="dropdown-item text-white" href="/Pages/task_creation.html">Create Task</a></li>
-                                  <li><a class="dropdown-item text-white" href="/Pages/login.html">Login</a></li>
-                                </ul>
-                              </li>
-                              <!-- <li class="nav-item">
-                                <a class="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                              </li> -->
-                        </ul>
-                    </div>
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">
+                    <img src="/pics/pic1.jpg" alt="img" style="width:40px;" class="rounded-pill">
+                </a>
+                <a href="#" class="navbar-brand ">Tas<span class="span text-warning">k'd</span></a>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active " aria-current="page"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Pages/home.html"><span
+                                    class="span text-warning">Ho</span>me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#about"><span
+                                    class="span text-warning">Ab</span>out</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled text-white" href="#"><span
+                                    class="span text-warning">Con</span>nect</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown"><span class="span text-warning">Dash</span>board</a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-white" href="/Pages/task_dashboard.html">Tasks</a></li>
+                                <li><a class="dropdown-item text-white" href="/Pages/task_details.html">Task Details</a>
+                                </li>
+                                <li><a class="dropdown-item text-white" href="/Pages/task_creation.html">Create Task</a>
+                                </li>
+                                <li><a class="dropdown-item text-white" href="/Pages/login.html">Login</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-            <div class="jumbotron bg-dark text-white py-1">
-                <div class="container-fluid text-center">
-                    <h1 class="display-4"><span class="span text-success"></span><span class="span text-warning">Ho</span>me</h1>
-                    <h6>Where <span class="text-success">Life</span> Gets <span class="text-success">Easier</span></h6>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card text-center bg-dark border-dark shadow ps-4 mb-4 py-5">
+            <div class="card-header bg-dark text-white border-dark display-5">
+                <h1><span>Welcome</span>,</h1>
+                <h5 class="py-5"><span class="text-warning">Conquer </span>Your <span class="text-success">Day<span
+                            class="text-white"> By</span> <span class="text-warning">Conquering </span><span
+                            class="text-white">Your </span><span class="text-success">Tasks</span></h5>
+            </div>
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
                     </div>
                 </div>
             </div>
-        </header>
 
-        <main>
-            <div class="card text-center bg-dark py-5">
-                <div class="card-header bg-dark text-white display-5">
-                     Welcome To <span class="text-success">Task'd</span>
-                </div>
-                <div class="card-body py-5">
-                    <div class="card card bg-warning text-white" style="width:500px; margin:auto; height: 130px">
-                        <img class="card-img" src="/pics/pic2.jpg" alt="Card image" style="width:128px; height:auto">
-                        <div class="card-img-overlay">
-                          <h4 class="card-title">login</h4>
-                          <p class="card-text">Click Below</p>
-                          <a href="/Pages/task_creation.html" class="button">
-                            <box-icon type='solid' name='category'></box-icon>
-                          </a>
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-12 ps-4 py-5">
+                        <div class="card bg-warning text-light" style="width:400px; margin:auto; height: 130px">
+                            <img class="card-img" src="/pics/pic2.jpg" alt="Card image"
+                                style="width:128px; height:auto">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">login</h4>
+                                <p class="card-text">Click Below</p>
+                                <a href="/Pages/login.html" class="button">
+                                    <box-icon type='solid' name='category'></box-icon>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="card-body">
-                    <div class="card bg-warning text-white" style="width:500px; margin:auto; height: 130px">
-                        <img class="card-img" src="/pics/pic2.jpg" alt="Card image" style="width:128px; height:auto">
-                        <div class="card-img-overlay">
-                          <h4 class="card-title">Register</h4>
-                          <p class="card-text">Click Below:</p>
-                          <a href="/Pages/register.html" class="button">
-                            <box-icon type='solid' name='category'></box-icon>
-                          </a>
+
+            <div class="container-sm">
+                <div class="row">
+                    <div class="col-12 ps-4 py-5">
+                        <div class="card bg-warning text-light" style="width:400px; margin:auto; height: 130px">
+                            <img class="card-img" src="/pics/pic2.jpg" alt="Card image"
+                                style="width:128px; height:auto">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title">Register</h4>
+                                <p class="card-text">Click Below</p>
+                                <a href="/Pages/register.html" class="button">
+                                    <box-icon type='solid' name='category'></box-icon>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="jumbotron">
-                <div class="jumbotron bg-dark text-white py-5">
+                <div class="jumbotron bg-dark text-white shadow p-4 mb-4 py-5">
                     <div class="container-fluid text-center">
-                        <h1 class="display-4"><span class="span text-success"></span><span class="span text-warning">Ab</span>out</h1>
-                        <p>Task’d is a cutting-edge task management platform designed to help individuals and teams streamline their workflow and boost 
-                            productivity. Founded in 2024, Task’d aims to revolutionize the way people manage their tasks by providing an intuitive and user-friendly interface.
-                            Our mission is to empower users to achieve their goals efficiently and effectively. With features like real-time collaboration, customizable task lists, 
-                            and seamless integration with popular tools, Task’d ensures that you stay organized and focused on what matters most.
-                            At Task’d, we believe in the power of simplicity and innovation. Our team of dedicated professionals is committed to delivering a top-notch experience, 
-                            making task management a breeze for everyone. Join us on our journey to transform productivity and make every day more productive.</p>
+                        <h1 class="display-4 py-5 text-decoration-underline"><span
+                                class="span text-success"></span><span class="span text-warning">Ab</span>out</h1>
+                        <img src="/pics/pic3.jpg" alt="img" class="img-fluid"
+                            style="width: 300px; height: auto; border-radius: 50px">
+                        <p class="about py-5"><strong>Task’d is a cutting-edge task management platform designed to help
+                                individuals and teams streamline their workflow and boost
+                                productivity. Founded in 2024, Task’d aims to revolutionize the way people manage their
+                                tasks by providing an intuitive and user-friendly interface.
+                                Our mission is to empower users to achieve their goals efficiently and effectively. With
+                                features like real-time collaboration, customizable task lists,
+                                and seamless integration with popular tools, Task’d ensures that you stay organized and
+                                focused on what matters most.
+                                At Task’d, we believe in the power of simplicity and innovation. Our team of dedicated
+                                professionals is committed to delivering a top-notch experience,
+                                making task management a breeze for everyone. Join us on our journey to transform
+                                productivity and make every day more productive</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron bg-dark text-white ps-4 mt-5">
+            <div class="container-fluid text-center">
+                <h1 class="display-4 text-decoration-underline"><span class="span text-success"></span><span
+                        class="span text-warning">Testim</span>onials</h1>
+            </div>
+        </div>
+        </div>
+        <div class="bg-dark py-5">
+            <div class="container ">
+                <h2 class="text-center  mb-5"></h2>
+                <div class="row">
+                    <div class="col-sm-4 ">
+                        <div class="card mb-4">
+                            <div class="card-body ">
+                                <p class="card-text">"Task'd has transformed the way I manage my tasks.
+                                    It's incredibly user-friendly and efficient!"</p>
+                                <h5 class="card-title">- Ryan Rhodes</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <p class="card-text">"I love how Task'd helps me stay organized and on top of my
+                                    projects.
+                                    Highly recommend it!"</p>
+                                <h5 class="card-title">- Sarah Stodder</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <p class="card-text">"The best task management app I've ever used.
+                                    Task'd makes my life so much easier!"</p>
+                                <h5 class="card-title">- Katelyn Mehner</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        
-        </main>
-
-        <footer>
-            <footer class="bg-dark text-white py-3">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <h5>Contact Us</h5>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <label for="text">Nicolas</label>
-                                    <button class="btn ms-4 btn-warning">
-                                        <box-icon type='logo' name='linkedin-square'></box-icon>
-                                    </button>
-                                </li>
-                                <li><label for="text">Jeremiah</label>
-                                    <button class="btn ms-4 btn-warning">
-                                        <box-icon type='logo' name='linkedin-square'></box-icon>
-                                    </button>
-                                </li>
-                                <li>
-                                    <label for="text">Anthony</label>
-                                    <button class="btn ms-4 btn-warning">
-                                        <box-icon type='logo' name='linkedin-square'>
-                                            <a href=""></a>
-                                        </box-icon>
-                                    </button>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4">
-                            <h5>Follow Us</h5>
-                            <a href="#" class="button">
-                            </a>
-                        </div>
-                        <div class="col-sm-4">
-                            <h5>Quick Links</h5>
-                            <ul class="list-unstyled">
-
-                            </ul>
-                        </div>
-                    </div>
+        </div>
+        <div class="jumbotron bg-dark text-white ps-4 py-5">
+            <div class="container-fluid text-center">
+                <h1 class="display-4 text-decoration-underline"><span class="span text-success"></span><span
+                        class="span text-warning">Con</span>nect</h1>
+            </div>
+        </div>
+        </div>
+        <div class="container ">
+            <div class="row ">
+                <div class="col-sm ">
+                    <ul class="list-unstyled ">
+                        <li>
+                            <label for="text"><strong>Social</strong>:</label>
+                            <button class="btn ms-4 btn-warning rounded-pill">
+                                <a href="#" class="btn ms-1 btn-warning rounded-circle" aria-label="Nicolas's LinkedIn">
+                                    <box-icon type='logo' name='linkedin-square'></box-icon>
+                                </a>
+                                <a href="#" class="btn ms-1 btn-warning rounded-circle" aria-label="Nicolas's LinkedIn">
+                                    <box-icon type='logo' name='github'></box-icon>
+                                </a>
+                            </button>
+                        </li>
+                    </ul>
                 </div>
-            </footer>
-            
-        </footer>
-        <!-- Bootstrap JavaScript Libraries -->
-        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-            crossorigin="anonymous"
-        ></script>
+                <div class="col-sm">
+                    <ul class="list-unstyled">
+                        <li>
+                            <label for="text"><strong>Social</strong>:</label>
+                            <button class="btn ms-4 btn-warning rounded-pill">
+                                <a href="#" class="btn ms-1 btn-warning rounded-circle"
+                                    aria-label="Jeremiah's LinkedIn">
+                                    <box-icon type='logo' name='linkedin-square'></box-icon>
+                                </a>
+                                <a href="#" class="btn ms-1 btn-warning rounded-circle"
+                                    aria-label="Jeremiah's LinkedIn">
+                                    <box-icon type='logo' name='github'></box-icon>
+                                </a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm">
+                    <ul class="list-unstyled">
+                        <li>
+                            <label for="text"><strong>Social</strong>:</label>
+                            <button class="btn ms-4 btn-warning rounded-pill">
+                                <a href="https://www.linkedin.com/in/anthony-hernandez-9551875b"
+                                    class="btn ms-1 btn-warning rounded-circle" aria-label="Anthony's LinkedIn">
+                                    <box-icon type='logo' name='linkedin-square'></box-icon>
+                                </a>
+                                <a href="https://github.com/jrdaiv" class="btn ms-1 btn-warning rounded-circle"
+                                    aria-label="Anthony's LinkedIn">
+                                    <box-icon type='logo' name='github'></box-icon>
+                                </a>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h5 class="name text-decoration-underline">Nicolas</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: example@example.com</li>
+                        <li>Phone: +1 (123) 456-7890</li>
+                        <li>Address: 1234 Street Name, City, State, ZIP Code</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="name text-decoration-underline">Jeremiah</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: example@example.com</li>
+                        <li>Phone: +1 (123) 456-7890</li>
+                        <li>Address: 1234 Street Name, City, State, ZIP Code</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <h5 class="name text-decoration-underline">Anthony Hernandez</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: example@example.com</li>
+                        <li>Phone: +1 (123) 456-7890</li>
+                        <li>Address: 1234 Street Name, City, State, ZIP Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+
+
+
+    </main>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="text-center mt-5">
+            <p>© 2024. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
