@@ -2,10 +2,11 @@ body {
     background-color: #087990; 
 }
 
-#dropdown {
-    height: 3rem;
+#dropdownMenuButton {
+    height: 40px;
 }
 
-#dropdown-menu {
-    width: 112rem;
+#dropdownImage {
+    height: 50px;
+    width: 50px;
 }
