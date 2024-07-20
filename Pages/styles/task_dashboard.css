@@ -2,14 +2,10 @@ body {
     background-color: #087990; 
 }
 
-#card {
-    height: 8rem;
-}
-
 #dropdown {
     height: 3rem;
 }
 
 #dropdown-menu {
-    width: 111rem;
+    width: 112rem;
 }
