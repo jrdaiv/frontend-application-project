@@ -1,5 +1,18 @@
 body {
     background-color: #087990; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
 }
 
 #achievementImg {
