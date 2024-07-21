@@ -14,11 +14,11 @@
 
     <header>
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container-fluid">
+            <div class="container-fluid ">
                 <a class="navbar-brand" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                    <img src="/pics/logo.jpg" alt="img" style="width:70px" class="rounded-pill">
+                    <img src="/pics/pic1.1.jpg" alt="img" style="width:70px;" class="rounded-pill">
                 </a>
-                <a href="#" class="navbar-bran text-white"><span class="span text-warning">Tas</span>k'd</a>
+                <a href="#" class="navbar-brand "><span class="span text-warning">Tas</span>k'd</a>
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
@@ -45,8 +45,8 @@
                                 </li>
                                 <li><a class="dropdown-item text-white" href="/Pages/task_creation.html">Create <span class="span text-success">Tasks</span></a>
                                 </li>
-                                <!-- <li><a class="dropdown-item text-white" href="/Pages/login.html">Log<span class="span text-success">in</span></a></li>
-                                <li><a class="dropdown-item text-white" href="/Pages/register.html">Regi<span class="span text-success">ster</span></a></li> -->
+                                <li><a class="dropdown-item text-white" href="/Pages/login.html">Log<span class="span text-success">in</span></a></li>
+                                <li><a class="dropdown-item text-white" href="/Pages/register.html">Regi<span class="span text-success">ster</span></a></li>
                             </ul>
                         </li>
                     </ul>
@@ -55,7 +55,7 @@
         </nav>
     </header>
 
-    <div class="container mt-5 shadow p-4 mb-4 py-5">
+    <div class="container mt-5">
         <h2 class="mb-4 text-center text-decoration-underline"><span class="text-warning">Create </span>Tasks</h2>
         <form class="row g-3">
             <div class="col-md-6">
@@ -63,7 +63,7 @@
                 <select class="form-select" name="" id="status">
                     <option value="">A short Hike</option>
                     <option value="">Apex</option>
-                    <option value="">Upload More Games </option>
+                    <option value="">Game 3</option>
                 </select>
             </div>
 
@@ -159,31 +159,12 @@
 
             <div class="col-md-4">
                 <div class="mb-3">
-                    <label for="formFileMultiple" class="form-label">Attach<span class="text-success">ments</span></label>
+                    <label for="formFileMultiple" class="form-label">Attac<span class="text-success">hments</span></label>
                     <input class="form-control" type="file" id="formFileMultiple" multiple>
                 </div>
             </div>
 
-            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Create
-              </button>
-              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="staticBackdropLabel">Warning</h5>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      Are You Sure You would like To Save The Task You've Inputed ?
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
-                      <button type="button" class="btn btn-primary">Yes</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <button type="submit" class="btn btn-warning text-white">Add Task</button>
     </div>
     </form>
     </div>
