@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Creation Page</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <img src="/pics/pic1.1.jpg" alt="img" style="width:70px;" class="rounded-pill">
+                </a>
+                <a href="#" class="navbar-brand "><span class="span text-warning">Tas</span>k'd</a>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active " aria-current="page"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Pages/home.html"><span
+                                    class="span text-warning">Ho</span>me</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-white" href="#about"><span
+                                    class="span text-warning">Ab</span>out</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#connect"><span
+                                    class="span text-warning">Con</span>nect</a>
+                        </li> -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown"><span class="span text-warning">Dash</span>board</a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-white" href="/Pages/task_dashboard.html">Tas<span class="span text-success">k'd</span></a></li>
+                                <li><a class="dropdown-item text-white" href="/Pages/task_details.html">Task <span class="span text-success">Details</span></a>
+                                </li>
+                                <li><a class="dropdown-item text-white" href="/Pages/task_creation.html">Create <span class="span text-success">Tasks</span></a>
+                                </li>
+                                <li><a class="dropdown-item text-white" href="/Pages/login.html">Log<span class="span text-success">in</span></a></li>
+                                <li><a class="dropdown-item text-white" href="/Pages/register.html">Regi<span class="span text-success">ster</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <h2 class="mb-4 text-center text-decoration-underline"><span class="text-warning">Create </span>Tasks</h2>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="status">Pick <span class="text-success">Up </span></label>
+                <select class="form-select" name="" id="status">
+                    <option value="">A short Hike</option>
+                    <option value="">Apex</option>
+                    <option value="">Game 3</option>
+                </select>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="subtasks">Subt<span class="text-success">asks</span></label>
+                    <textarea class="form-control" id="subtasks" rows="2" placeholder="Enter subtasks"></textarea>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <label for="taskName">Task <span class="text-success">Name</span></label>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="taskName" placeholder="Enter task name">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="taskDescription">Task <span class="text-success">Description</span></label>
+                <div class="input-group mb-3">
+                    <textarea class="form-control" id="taskDescription" rows="3"
+                        placeholder="Enter task description"></textarea>
+                </div>
+            </div>
+            
+            <div class="col-md-2">
+                <label for="Level">Skill <span class="text-success">Level</span></label>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Beginner</label>
+                </div>
+
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Intermediate</label>
+                </div>
+
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Advanced</label>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <label for="Category">Task <span class="text-success">Category</span></label>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Task'd Daily Quest</label>
+                </div>
+
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Task'd Weekly Quest</label>
+                </div>
+
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Task'd VIP's Quest</label>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <label for="">Achievement <span class="text-success">Tokens</span></label>
+                <select class="form-select">
+                    <option>0</option>
+                    <option>5</option>
+                    <option>10</option>
+                    <option>15</option>
+                </select>
+            </div>
+
+            <div class="col-md-3">
+                <label for="dueDate">Date Task <span class="text-success">Was Created</span></label>
+                <div class="input-group mb-3">
+                    <input type="date" class="form-control" id="dueDate">
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <label for="dueDate">Date Ta<span class="text-success">sk Expires</span></label>
+                <div class="input-group mb-3">
+                    <input type="date" class="form-control" id="dueDate">
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <label for="status">Task <span class="text-success">Status</span></label>
+                <select class="form-select" name="" id="status">
+                    <option value="">Not Started</option>
+                    <option value="">In Progress</option>
+                    <option value="">Completed</option>
+                </select>
+            </div>
+
+            <div class="col-md-4">
+                <div class="mb-3">
+                    <label for="formFileMultiple" class="form-label">Attac<span class="text-success">hments</span></label>
+                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                </div>
+            </div>
+
+            <button type="submit" class="btn btn-warning text-white">Add Task</button>
+    </div>
+    </form>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
