@@ -17,7 +17,7 @@
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                    <img src="/pics/pic1.1.jpg" alt="img" style="width:70px;" class="rounded-pill">
+                    <img src="/pics/logo.jpg" alt="img" style="width:70px;" class="rounded-pill">
                 </a>
                 <a href="#" class="navbar-brand "><span class="span text-warning">Tas</span>k'd</a>
                 <div class="collapse navbar-collapse " id="navbarNav">
@@ -28,6 +28,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" href="/Pages/home.html"><span
                                     class="span text-warning">Ho</span>me</a>
+                                    
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#about"><span
@@ -37,34 +38,67 @@
                             <a class="nav-link text-white" href="#connect"><span
                                     class="span text-warning">Con</span>nect</a>
                         </li>
+                        
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-white" href="#" role="button"
                                 data-bs-toggle="dropdown"><span class="span text-warning">Dash</span>board</a>
                             <ul class="dropdown-menu bg-dark">
-                                <li><a class="dropdown-item text-white" href="/Pages/task_dashboard.html">Tas<span class="span text-success">k'd</span></a></li>
+                                <li><a class="dropdown-item text-white" href="/Pages/task_dashboard.html">Task'd<span class="span text-success"> Menu</span></a></li>
                                 <li><a class="dropdown-item text-white" href="/Pages/task_details.html">Task <span class="span text-success">Details</span></a>
                                 </li>
                                 <li><a class="dropdown-item text-white" href="/Pages/task_creation.html">Create <span class="span text-success">Tasks</span></a>
                                 </li>
-                                <li><a class="dropdown-item text-white" href="/Pages/login.html">Log<span class="span text-success">in</span></a></li>
-                                <li><a class="dropdown-item text-white" href="/Pages/register.html">Regi<span class="span text-success">ster</span></a></li>
+                                <!-- <li><a class="dropdown-item text-white" href="/Pages/login.html">Log<span class="span text-success">in</span></a></li>
+                                <li><a class="dropdown-item text-white" href="/Pages/register.html">Regi<span class="span text-success">ster</span></a></li> -->
                             </ul>
                         </li>
+                        <button class="btn btn-success btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><span class="span text-warning">Login</span>/Register</button>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    
+
 
     <main>
+        <section>
+            <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                <div class="offcanvas-header">
+                  <h5 id="offcanvasTopLabel"></h5>
+                  <h5 id="offcanvasTopLabel" class="ps-4">Login/Register</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body text-center">
+                  <a class="btn btn-warning text-white" href="/Pages/login.html" role="button">Login</a>
+                  <a class="btn btn-success" href="/Pages/register.html" role="button">Register</a>
+                </div>
+              </div>
+
+        </section>
         <section>
             <div class="card text-center bg-dark border-dark py-5 my-5">
                 <div class="card-header shadow mb-2 py-5 bg-dark text-white border-dark display-5">
                     <h1 class="display-1"><span>Welcome</span>,</h1>
                     <h5 class="py-5 my-5"><span class="text-warning">Conquer </span>Your <span class="text-success">Game<span
                                 class="text-white"> By</span> <span class="text-warning">Mastering </span><span
-                                class="text-white">Your </span><span class="text-success">Tasks</span></h5>
+                                class="text-white">Your </span><span class="text-success">Tasks</span></h5>      
                 </div>
+            </div>
+          
+        
+
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="..." class="rounded me-2" alt="...">
+                    <strong class="me-auto">Heloo</strong>
+                    <small class="text-muted">11 Min Ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Hello my world
+                </div>
+            </div>
         </section>
 
         <section>
@@ -78,8 +112,41 @@
                         <h1 class="display-4 py-5 text-decoration-underline"><span
                                 class="span text-success"></span><span class="span text-warning" id="about">Ab</span>out
                         </h1>
-                        <img src="/pics/logo.jpg" alt="img" class="img-fluid"
-                            style="width: 450px; height: auto; border-radius: 50px">
+                        
+                        <!-- Carousel -->
+                        <div class="container w-50 h-50">
+                            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                                <!-- Indicators/dots -->
+                                <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                                </div>
+                            
+                                <!-- The slideshow/carousel -->
+                                <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="/pics/logo2.jpg" alt="Los Angeles" class="img-thumbnail img-fluid">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/pics/taskd2.jpg" alt="Chicago" class="img-thumbnail img-fluid">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="/pics/pic13.jpg" alt="New York" class="img-thumbnail img-fluid">
+                                </div>
+                                </div>
+                            
+                                <!-- Left and right controls/icons -->
+                                <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                </button>
+                            </div>
+                        </div>
+
                         <p class="about py-5"><strong>Welcome to task'd, where gaming meets productivity!
                             At task'd, we believe that managing your tasks should be as engaging and rewarding as playing your favorite games. 
                             Founded by a group of passionate gamers and productivity enthusiasts, our mission is to revolutionize the way you approach 
@@ -102,7 +169,52 @@
         </section>
         </div>
         <div class="container shadow mb-4 py-5 ">
-            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="accordion" id="accordionExample">
+                <h3 class="text-center text-decoration-underline py-5">Learn More About Task'd</h3>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      How It Works
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Task'd</strong> transforms your task management experience into a game. Simply create tasks, set deadlines, and prioritize them. As you complete tasks, 
+                        you earn points, unlock achievements, and level up, making productivity fun and engaging. The app integrates seamlessly with your calendar and reminders, ensuring 
+                        you stay on top of your tasks.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Helps Gamers
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Task'd</strong> helps people by turning mundane task management into an exciting challenge. Users are motivated to complete tasks on time, leading to 
+                        increased productivity and reduced procrastination. The app's gamified approach encourages users to stay organized, achieve their goals, and manage their time 
+                        effectively, ultimately improving their overall well-being.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Speed
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        With <strong>task'd</strong>, speed and efficiency are at the core of the experience. The intuitive interface allows users to quickly add, edit, and complete tasks. 
+                        Real-time notifications and updates ensure that you never miss a deadline. The app's performance is optimized to handle large lists and complex schedules, making sure 
+                        that your productivity tools never slow you down.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -128,7 +240,7 @@
                   <div class="carousel-item">
                     <img src="/pics/pic2.jpg" class="d-block w-100" style="max-width: 100%; height: 40rem" alt="...">
                     <div class="carousel-caption d-none d-md-block text-warning">
-                      <h5><strong>24/7 Surveillance</strong></h5>
+                      <h5><strong>24/7</strong></h5>
                       <p><strong>Our team are always online, have any issue<br>we'll solve it in no time.</strong></p>
                     </div>
                   </div>
@@ -141,7 +253,7 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+              </div> -->
         </div>
 
         <section>
@@ -282,16 +394,26 @@
                 </div>
             </div>
         </section>
+
+
     </main>
 
+    
+
     <footer class="bg-dark text-white py-3">
+        
         <div class="text-center mt-5">
             <p>© 2024. All rights reserved.</p>
         </div>
     </footer>
-
-
-
+    
+    
+    <script type="module">
+        import { Toast } from 'bootstrap.esm.min.js'
+      
+        Array.from(document.querySelectorAll('.toast'))
+          .forEach(toastNode => new Toast(toastNode))
+      </script>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
