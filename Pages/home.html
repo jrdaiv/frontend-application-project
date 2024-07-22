@@ -15,7 +15,7 @@
 <body>
     <!-- navbar -->
     <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark ">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                     <img src="/pics/logo.jpg" alt="img" style="width:70px;" class="rounded-pill">
@@ -39,7 +39,6 @@
                             <a class="nav-link text-white" href="#connect"><span
                                     class="span text-warning">Con</span>nect</a>
                         </li>
-                        
                         <li class="nav-item dropdown">
                             <ul class="dropdown-menu bg-dark">
                                 <li><a class="dropdown-item text-white" href="/Pages/task_dashboard.html">Task'd<span class="span text-success"> Menu</span></a></li>
@@ -48,7 +47,7 @@
                                 <li><a class="dropdown-item text-white" href="/Pages/task_creation.html">Create <span class="span text-success">Tasks</span></a>
                                 </li>
                             </ul>
-                        </li>
+                        </li
                         <div class="button">
                             <button class="btn btn-success btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><span class="span text-warning">Login</span>/Register</button>
                         </div>
@@ -67,31 +66,31 @@
             <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
                 <div class="offcanvas-header">
                   <h5 id="offcanvasTopLabel"></h5>
-                  <h5 id="offcanvasTopLabel" class="ps-4 text-decoration-underline"><span class="text-warning">Lo</span>gin</h5>
+                  <h5 id="offcanvasTopLabel" class="text-decoration-underline"><span class="text-warning">Lo</span>gin</h5>
                   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
 
                 <div class="offcanvas-body">
-                    <div class="container">
+                    <div class="container-sm">
                         <form class="row">
-
                             <div class="col-sm-4 text-center">
                                 <label for="Username" class="form-label">Username:</label>
-                                <input type="email" class="form-control" id="emailInput">
+                                <input type="email" class="form-control" id="emailInput" placeholder="Max 10 ">
                             </div>
                             <div class="col-sm-4 text-center">
                                 <label for="password" class="form-label">Email:</label>
-                                <input type="password" class="form-control" id="password">
+                                <input type="password" class="form-control" id="password" placeholder="Enter Email">
                             </div>
                             <div class="col-sm-4 text-center">
                                 <label for="emailInput" class="form-label">Password:</label>
-                                <input type="email" class="form-control" id="emailInput">
+                                <input type="email" class="form-control" id="emailInput" placeholder="Enter Password">
                             </div>
-                            <div class="col-sm-12 text-center">
+                            <div class="col-sm-4">
+                                
+                            </div>
+                            <div class="col-sm-4 text-center">
                                 <a class="btn btn-warning mt-2 text-white" href="/Pages/task_dashboard.html" role="button">Login</a>
-                            </div>
-                            <div class="col-sm-12 py-3 text-center">
-                                <a class="btn btn-success" href="/Pages/register.html" role="button">Register</a>
+                                <a class="btn btn-success mt-2" href="/Pages/register.html" role="button">Register</a>
                             </div>
 
                         </form>
