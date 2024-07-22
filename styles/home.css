@@ -6,7 +6,7 @@
     width: 100vw
 } */
 .accordion-button:not(.collapsed){
-    background: red;
+    background: rgb(25, 135, 84);
     color: white 
 }
 
@@ -14,7 +14,18 @@
      /* You can set this to any value you need */ 
     }
 
-
+    @media (max-width: 768px) {
+        /* .offcanvas-body {
+            height: calc(100vh - 56px); /* Adjust the height as needed */
+        } */
+        .login-container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+    
 /* #accordionButton:hover{
     background: rgb(43, 255, 0);
 } */
