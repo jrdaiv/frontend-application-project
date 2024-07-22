@@ -13,20 +13,25 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-                    <img src="/pics/logo.jpg" alt="img" style="width:70px" class="rounded-pill">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#">
+                    <img src="/pics/logo.jpg" alt="img" style="width:70px;" class="rounded-pill">
                 </a>
-                <a href="home.html" class="navbar-bran text-white text-decoration-none"><span class="span text-warning">Tas</span>k'd</a>
+                <a href="home.html" class="navbar-brand "><span class="span text-warning">Tas</span>k'd</a>
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active " aria-current="page"></a>
+                            <a href="/Pages/home.html" class="nav-link active " aria-current="page"></a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="/Pages/task_dashboard.html"><span
-                                    class="span text-warning">Ho</span>me</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                data-bs-toggle="dropdown"><span class="span text-warning">Dash</span>board</a>
+                            <ul class="dropdown-menu bg-dark">
+                                <li><a class="dropdown-item text-white" href="/Pages/task_dashboard.html">Task'd<span class="span text-success"> Menu</span></a></li>
+                                <li><a class="dropdown-item text-white" href="/Pages/task_creation.html">Create <span class="span text-success">Tasks</span></a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
