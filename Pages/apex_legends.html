@@ -19,13 +19,61 @@
     <link rel="stylesheet" href="styles/apex_legends.css" />
   </head>
 
-  <body>
-    <header></header>
+  <body class="bg-dark">
+    <header>
+      <nav
+        class="navbar navbar-expand-sm bg-dark navbar-dark text-decoration-none"
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+          >
+            <img
+              src="/pics/logo.jpg"
+              alt="img"
+              style="width: 70px"
+              class="rounded-pill"
+            />
+          </a>
+          <a
+            href="/Pages/home.html"
+            class="navbar-bran text-white text-decoration-none"
+            ><span class="span text-warning">Tas</span>k'd</a
+          >
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  href="/Pages/home.html"
+                  class="nav-link active"
+                  aria-current="page"
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/Pages/task_dashboard.html"
+                  ><span class="span text-warning">Ho</span>me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="/Pages/task_creation.html"
+                  >Create <span class="span text-success">Tasks</span></a
+                >
+                </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <div class="container">
         <div class="dropdown">
           <button
-            class="btn btn-secondary dropdown-toggle mt-3 mb-3 form-control fs-3"
+            class="btn btn-dark dropdown-toggle mt-3 mb-3 form-control fs-3"
             type="button"
             id="triggerId"
             data-bs-toggle="dropdown"
@@ -43,10 +91,12 @@
             </div>
           </button>
           <div
-            class="dropdown-menu form-control text-center"
+            class="dropdown-menu bg-dark form-control text-center"
             aria-labelledby="triggerId"
           >
-            <a class="dropdown-item" href="a_short_hike.html">A Short Hike</a>
+            <a class="dropdown-item bg-dark text-light" href="a_short_hike.html"
+              >A Short Hike</a
+            >
           </div>
         </div>
       </div>
@@ -64,19 +114,34 @@
               <div class="card-body">
                 <h5 class="card-title">Apex Assault</h5>
                 <p class="card-text">Win a game as an assault character.</p>
+                <p class="card-text">
+                  Τ - 5
+                  <span class="badge bg-primary ms-2">Intermediate</span>
+                </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#apexAssault" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#apexAssault"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card bg-success border-dark mb-3">
+        <div class="card bg-success text-white border-dark mb-3">
           <div class="row g-0">
             <div class="col-1">
               <img
@@ -89,12 +154,27 @@
               <div class="card-body">
                 <h5 class="card-title">Apex Controller</h5>
                 <p class="card-text">Win a game as a controller character.</p>
+                <p class="card-text">
+                  Τ - 5
+                  <span class="badge bg-primary ms-2">Intermediate</span>
+                </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#apexController" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#apexController"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
@@ -113,24 +193,37 @@
             <div class="col-3">
               <div class="card-body">
                 <h5 class="card-title">Apex Legend</h5>
+                <p class="card-text">Win a game with 8 different Legends.</p>
                 <p class="card-text">
-                  Win a game with 8 different Legends.
+                  Τ - 15
+                  <span class="badge bg-danger ms-2">Advanced</span>
                 </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#apexLegend" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#apexLegend"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card bg-success border-dark mb-3">
+        <div class="card bg-success text-white border-dark mb-3">
           <div class="row g-0">
-            <div class="col-1 d-flex">
+            <div class="col-1">
               <img
                 src="https://steamuserimages-a.akamaihd.net/ugc/1672486157606590682/B41033AA332A2FFF3AB14B1BD5F358254D01461F/"
                 alt="Image"
@@ -140,15 +233,28 @@
             <div class="col-3">
               <div class="card-body">
                 <h5 class="card-title">Apex Recon</h5>
+                <p class="card-text">Win a game as recon character.</p>
                 <p class="card-text">
-                  Win a game as recon character.
+                  Τ - 5
+                  <span class="badge bg-primary ms-2">Intermediate</span>
                 </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#apexRecon" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#apexRecon"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
@@ -157,7 +263,7 @@
 
         <div class="card bg-warning border-dark mb-3">
           <div class="row g-0">
-            <div class="col-1 d-flex">
+            <div class="col-1">
               <img
                 src="https://steamuserimages-a.akamaihd.net/ugc/1672486157606595981/EB8444F4B48EAABDDA62CFCE708BC9ACB1EEEE1D/"
                 alt="Image"
@@ -168,21 +274,36 @@
               <div class="card-body">
                 <h5 class="card-title">Apex Support</h5>
                 <p class="card-text">Win a game as support character.</p>
+                <p class="card-text">
+                  Τ - 5
+                  <span class="badge bg-primary ms-2">Intermediate</span>
+                </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#apexSupport" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#apexSupport"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card bg-success border-dark mb-3">
+        <div class="card bg-success text-white border-dark mb-3">
           <div class="row g-0">
-            <div class="col-1 d-flex">
+            <div class="col-1">
               <img
                 src="https://steamuserimages-a.akamaihd.net/ugc/1672486157606598505/21F533FF9FDAAB7757C38D7863A7DD5014A8252F/"
                 alt="Image"
@@ -192,13 +313,30 @@
             <div class="col-3">
               <div class="card-body">
                 <h5 class="card-title">Decked Out</h5>
-                <p class="card-text">Equip any 2 legendary equipment items at the same time.</p>
+                <p class="card-text">
+                  Equip any 2 legendary equipment items at the same time.
+                </p>
+                <p class="card-text">
+                  Τ - 5
+                  <span class="badge bg-primary ms-2">Intermediate</span>
+                </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#deckedOut" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#deckedOut"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
@@ -207,7 +345,7 @@
 
         <div class="card bg-warning border-dark mb-3">
           <div class="row g-0">
-            <div class="col-1 d-flex">
+            <div class="col-1">
               <img
                 src="https://steamuserimages-a.akamaihd.net/ugc/1672486157606599585/57CC0B05204E6EF21633F7A838C4B597DD64DA98/"
                 alt="Image"
@@ -217,24 +355,37 @@
             <div class="col-3">
               <div class="card-body">
                 <h5 class="card-title">Fully Kitted</h5>
+                <p class="card-text">Equip a fully kitted weapon.</p>
                 <p class="card-text">
-                  Equip a fully kitted weapon.
+                  Τ - 5
+                  <span class="badge bg-primary ms-2">Intermediate</span>
                 </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#fullyKitted" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#fullyKitted"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card bg-success border-dark mb-3">
+        <div class="card bg-success text-white border-dark mb-3">
           <div class="row g-0">
-            <div class="col-1 d-flex">
+            <div class="col-1">
               <img
                 src="https://steamuserimages-a.akamaihd.net/ugc/1672486157606601279/03745B01368774BA3C5505314FB56FFF8C60DFB8/"
                 alt="Image"
@@ -245,12 +396,27 @@
               <div class="card-body">
                 <h5 class="card-title">Jumpmaster</h5>
                 <p class="card-text">Be the jumpmaster 5 times.</p>
+                <p class="card-text">
+                  Τ - 5
+                  <span class="badge bg-light text-dark ms-2">Beginner</span>
+                </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#jumpmaster" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#jumpmaster"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
@@ -259,7 +425,7 @@
 
         <div class="card bg-warning border-dark mb-3">
           <div class="row g-0">
-            <div class="col-1 d-flex">
+            <div class="col-1">
               <img
                 src="https://steamuserimages-a.akamaihd.net/ugc/1672486157606603260/67041D11F2440645303B1030F561700C735277DC/"
                 alt="Image"
@@ -270,21 +436,36 @@
               <div class="card-body">
                 <h5 class="card-title">Kill Leader</h5>
                 <p class="card-text">Become the Kill Leader.</p>
+                <p class="card-text">
+                  Τ - 5
+                  <span class="badge bg-light text-dark ms-2">Beginner</span>
+                </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#killLeader" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#killLeader"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card bg-success border-dark mb-3">
+        <div class="card bg-success text-white border-dark mb-3">
           <div class="row g-0">
-            <div class="col-1 d-flex">
+            <div class="col-1">
               <img
                 src="https://steamuserimages-a.akamaihd.net/ugc/1672486157606605745/B249313DE53A181C2037FB68AA1906705FB0D5FF/"
                 alt="Image"
@@ -295,12 +476,27 @@
               <div class="card-body">
                 <h5 class="card-title">Team Player</h5>
                 <p class="card-text">Respawn a teammate.</p>
+                <p class="card-text">
+                  Τ - 5
+                  <span class="badge bg-light text-dark ms-2">Beginner</span>
+                </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#teamPlayer" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#teamPlayer"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
@@ -309,7 +505,7 @@
 
         <div class="card bg-warning border-dark mb-3">
           <div class="row g-0">
-            <div class="col-1 d-flex">
+            <div class="col-1">
               <img
                 src="https://steamuserimages-a.akamaihd.net/ugc/1672486157606607406/7AD7E467FBDEF53CAF299BCCA97B0EF2337F2C44/"
                 alt="Image"
@@ -320,21 +516,36 @@
               <div class="card-body">
                 <h5 class="card-title">The Player</h5>
                 <p class="card-text">Reach player level 50.</p>
+                <p class="card-text">
+                  Τ - 5
+                  <span class="badge bg-primary ms-2">Intermediate</span>
+                </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#thePlayer" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#thePlayer"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
           </div>
         </div>
 
-        <div class="card bg-success border-dark mb-3">
+        <div class="card bg-success text-white border-dark mb-3">
           <div class="row g-0">
-            <div class="col-1 d-flex">
+            <div class="col-1">
               <img
                 src="https://steamuserimages-a.akamaihd.net/ugc/1672486157606609315/F81FE0E4773546C054B4D007898CA1C3B080F367/"
                 alt="Image"
@@ -344,13 +555,30 @@
             <div class="col-3">
               <div class="card-body">
                 <h5 class="card-title">Well-Rounded</h5>
-                <p class="card-text">Deal 5,000 damage with 8 different Legends.</p>
+                <p class="card-text">
+                  Deal 5,000 damage with 8 different Legends.
+                </p>
+                <p class="card-text">
+                  Τ - 10
+                  <span class="badge bg-danger ms-2">Advanced</span>
+                </p>
               </div>
             </div>
             <div class="col-2 d-flex align-items-center">
               <div class="card-body">
-                <a href="apex_legends_details.html#well-Rounded" class="btn btn-primary border border-dark"
+                <a
+                  href="apex_legends_details.html#well-Rounded"
+                  class="btn btn-primary border border-dark"
                   >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="card-body">
+                <a
+                  href=""
+                  class="btn btn-primary border border-dark"
+                  >Mark as Complete</a
                 >
               </div>
             </div>
@@ -360,9 +588,9 @@
     </main>
     <footer class="bg-dark text-white py-3">
       <div class="text-center mt-5">
-          <p>© 2024. All rights reserved.</p>
+        <p>© 2024. All rights reserved.</p>
       </div>
-  </footer>
+    </footer>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script
