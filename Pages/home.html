@@ -15,7 +15,7 @@
 <body>
     <!-- navbar -->
     <header>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark ">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
                     <img src="/pics/logo.jpg" alt="img" style="width:70px;" class="rounded-pill">
@@ -39,21 +39,18 @@
                             <a class="nav-link text-white" href="#connect"><span
                                     class="span text-warning">Con</span>nect</a>
                         </li>
-                        
                         <li class="nav-item dropdown">
-                            <!-- <a class="nav-link dropdown-toggle text-white" href="#" role="button"
-                                data-bs-toggle="dropdown"><span class="span text-warning">Dash</span>board</a> -->
                             <ul class="dropdown-menu bg-dark">
                                 <li><a class="dropdown-item text-white" href="/Pages/task_dashboard.html">Task'd<span class="span text-success"> Menu</span></a></li>
                                 <li><a class="dropdown-item text-white" href="/Pages/task_details.html">Task <span class="span text-success">Details</span></a>
                                 </li>
                                 <li><a class="dropdown-item text-white" href="/Pages/task_creation.html">Create <span class="span text-success">Tasks</span></a>
                                 </li>
-                                <!-- <li><a class="dropdown-item text-white" href="/Pages/login.html">Log<span class="span text-success">in</span></a></li>
-                                <li><a class="dropdown-item text-white" href="/Pages/register.html">Regi<span class="span text-success">ster</span></a></li> -->
                             </ul>
-                        </li>
-                        <button class="btn btn-success btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><span class="span text-warning">Login</span>/Register</button>
+                        </li
+                        <div class="button">
+                            <button class="btn btn-success btn-sm" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><span class="span text-warning">Login</span>/Register</button>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -69,38 +66,33 @@
             <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
                 <div class="offcanvas-header">
                   <h5 id="offcanvasTopLabel"></h5>
-                  <h5 id="offcanvasTopLabel" class="ps-4 text-decoration-underline"><span class="text-warning">Lo</span>gin</h5>
+                  <h5 id="offcanvasTopLabel" class="text-decoration-underline"><span class="text-warning">Lo</span>gin</h5>
                   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body">
-                
-                
-                    <div class="container d-flex justify-content-center align-items-center">
-                        <form class="row">
 
-                            <div class="col-sm-3 text-center">
-                                <label for="emailInput" class="form-label">Email:</label>
-                                <input type="email" class="form-control" id="emailInput">
+                <div class="offcanvas-body">
+                    <div class="container-sm">
+                        <form class="row">
+                            <div class="col-sm-4 text-center">
+                                <label for="Username" class="form-label">Username:</label>
+                                <input type="email" class="form-control" id="emailInput" placeholder="Max 10 ">
                             </div>
-                            <div class="col-sm-3 text-center">
-                                <label for="password" class="form-label">Password:</label>
-                                <input type="password" class="form-control" id="password">
+                            <div class="col-sm-4 text-center">
+                                <label for="password" class="form-label">Email:</label>
+                                <input type="password" class="form-control" id="password" placeholder="Enter Email">
                             </div>
-                            <div class="col-sm-3 text-center">
-                                <label for="emailInput" class="form-label">Email:</label>
-                                <input type="email" class="form-control" id="emailInput">
+                            <div class="col-sm-4 text-center">
+                                <label for="emailInput" class="form-label">Password:</label>
+                                <input type="email" class="form-control" id="emailInput" placeholder="Enter Password">
                             </div>
-                            <div class="col-sm-3 text-center">
-                                <label for="password" class="form-label">Password:</label>
-                                <input type="password" class="form-control" id="password">
-                            </div>
-                            <div class="col-sm-6 text-center">
-                                <a class="btn btn-warning text-white" href="/Pages/task_dashboard.html" role="button">Login</a>
+                            <div class="col-sm-4">
                                 
                             </div>
-                            <div class="col-sm-6 text-center">
-                                <a class="btn btn-success" href="/Pages/register.html" role="button">Register</a>
+                            <div class="col-sm-4 text-center">
+                                <a class="btn btn-warning mt-2 text-white" href="/Pages/task_dashboard.html" role="button">Login</a>
+                                <a class="btn btn-success mt-2" href="/Pages/register.html" role="button">Register</a>
                             </div>
+
                         </form>
                     </div>
                 </div>
@@ -112,7 +104,7 @@
         <section>
             <div class="card text-center bg-dark border-dark py-5 my-5">
                 <div class="card-header shadow mb-2 py-5 bg-dark text-white border-dark display-5">
-                    <h1 class="display-1"><span>Welcome</span>,</h1>
+                    <h1 class="display-1"><span class="">Welcome</span>,</h1>
                     <h5 class="py-5 my-5"><span class="text-warning">Conquer </span>Your <span class="text-success">Game<span
                                 class="text-white"> By</span> <span class="text-warning">Mastering </span><span
                                 class="text-white">Your </span><span class="text-success">Tasks</span></h5>      
@@ -141,7 +133,7 @@
                                 </div>
                             
                                 <!-- The slideshow/carousel -->
-                                <div class="carousel-inner">
+                                <div class="carousel-inner shadow-lg p-3 mb-5 bg-body rounded">
                                 <div class="carousel-item active">
                                     <img src="/pics/logo2.jpg" alt="Los Angeles" class="img-thumbnail img-fluid">
                                 </div>
@@ -245,7 +237,7 @@
                 <div class="container ">
                     <h2 class="text-center  mb-5"></h2>
                     <div class="row">
-                        <div class="col-sm-4 ">
+                        <div class="col-sm-4 shadow-lg p-3 mb-5 bg-body rounded">
                             <div class="card mb-4">
                                 <div class="card-body ">
                                     <p class="card-text">"Task'd has transformed the way I manage my tasks while I play.
@@ -254,7 +246,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4 shadow-lg p-3 mb-5 bg-body rounded">
                             <div class="card mb-4">
                                 <div class="card-body">
                                     <p class="card-text">"I love how Task'd helps me stay organized and on top of my
@@ -263,7 +255,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4 shadow-lg p-3 mb-5 bg-body rounded">
                             <div class="card mb-4">
                                 <div class="card-body">
                                     <p class="card-text">"One of the best task management apps I've ever used.
@@ -321,16 +313,16 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm">
+                    <div class="col-sm ">
                         <ul class="list-unstyled">
                             <li>
                                 <label for="text"><strong>Social</strong>:</label>
                                 <button class="btn ms-4 btn-success border-0 rounded">
-                                    <a href="https://www.linkedin.com/in/anthony-hernandez-9551875b"
+                                    <a href="home.html"
                                         class="btn ms-1 btn-warning rounded-circle" aria-label="Anthony's LinkedIn">
                                         <box-icon type='logo' name='linkedin-square'></box-icon>
                                     </a>
-                                    <a href="https://github.com/jrdaiv" class="btn ms-1 btn-warning rounded-circle"
+                                    <a href="home.html" class="btn ms-1 btn-warning rounded-circle"
                                         aria-label="Anthony's LinkedIn">
                                         <box-icon type='logo' name='github'></box-icon>
                                     </a>
@@ -341,17 +333,17 @@
                 </div>
             </div>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-sm-4 shadow-lg p-3 mb-5 bg-body rounded">
                         <h5 class="name text-decoration-underline">Nicolas</h5>
-                        <ul class="list-unstyled">
+                        <ul class="list-unstyled ">
                             <li>Email: example@example.com</li>
                             <li>Phone: +1 (123) 456-7890</li>
                             <li>Address: 1234 Street Name, City, State, ZIP Code</li>
                         </ul>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 shadow-lg p-3 mb-5 bg-body rounded">
                         <h5 class="name text-decoration-underline">Jeremiah</h5>
                         <ul class="list-unstyled">
                             <li>Email: example@example.com</li>
@@ -359,7 +351,7 @@
                             <li>Address: 1234 Street Name, City, State, ZIP Code</li>
                         </ul>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 shadow-lg p-3 mb-5 bg-body rounded">
                         <h5 class="name text-decoration-underline">Anthony</h5>
                         <ul class="list-unstyled">
                             <li>Email: example@example.com</li>
