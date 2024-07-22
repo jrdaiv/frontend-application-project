@@ -5,9 +5,19 @@
     height: 100vh;
     width: 100vw
 } */
+.accordion-button:not(.collapsed){
+    background: red;
+    color: white 
+}
+
+.min-height-row { min-height: 300px;
+     /* You can set this to any value you need */ 
+    }
 
 
-
+/* #accordionButton:hover{
+    background: rgb(43, 255, 0);
+} */
 
 
 
