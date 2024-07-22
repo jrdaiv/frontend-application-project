@@ -20,89 +20,112 @@
 
     <body>
         <header>
-            <h1 class="card">
-            <span class="span text-success">Welcome to Task'd Registration</span>
-            <h1>
-                
-            <br>
-            <div class="card">
-            <div>
-            <span class="span text-warning">Register Here</span>
-            </div> 
-            <div>
-                <div class="container mt-1">
-                    <h2>Task'd Registration Form</h2>
-                    <p>We here at Task'd appreciate your consideration to joing our Task'd family.
-                        We promise to provide a funfilled way to achivece your goals. Our job is to help you complete all your achievements here at Task'd. 
-                        We welcome you to browse through our site and all the wonderful things 
-                        things Task'd has to offer. To both visiters and returning guest.
-                    <p>
-                  </div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark ">
+                <div class="container-fluid ">
+                    <a class="navbar-brand" href="#">
+                        <img src="/pics/logo.jpg" alt="img" style="width:70px;" class="rounded-pill">
+                    </a>
+                    <a href="home.html" class="navbar-brand "><span class="span text-warning">Tas</span>k'd</a>
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a href="/Pages/home.html" class="nav-link active " aria-current="page"></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button"
+                                    data-bs-toggle="dropdown"><span class="span text-warning">Dash</span>board</a>
+                                <ul class="dropdown-menu bg-dark">
+                                    <li><a class="dropdown-item text-white" href="/Pages/task_dashboard.html">Task'd<span class="span text-success"> Menu</span></a></li>
+                                    <li><a class="dropdown-item text-white" href="/Pages/task_creation.html">Create <span class="span text-success">Tasks</span></a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="bio text-center">
+                <h1><p><span class="text-warning">Task'd</span> Registration</p></h1>
+                        
+                    <br>
+                    <div class="card">
+
+                    <div>
+                        <div class="container mt-1">
+                            <p>We here at Task'd appreciate your consideration to joing our Task'd family.
+                                We promise to provide a funfilled way to achivece your goals. Our job is to help you complete all your achievements here at Task'd. 
+                                We welcome you to browse through our site and all the wonderful things 
+                                things Task'd has to offer. To both visiters and returning guest.
+                            </p>
+                        </div>
+                    </div>
             </div>
             
         </header>
         <main>
             
-
-            <div class="mb-3">
-                <label for="Full-name" class="form-label">Full Name</label>
-                <input type="text" 
-                class="form-control"
-                id="fullname"
-                name="Full-name" 
-                placeholder="Enter your full name" 
-                />
-                <div class="valid-feedback">Looks good!</div>
-                <div class="invalid-feedback">Please enter a valid name.</div>
-            </div>
-
-            <br>
-
-            <div    
-                class="mb-3">
-                <label for="address" class="form-label">Address</label>
-                <input type="text" 
-                class="form-control" 
-                id="address"
-                 name="address" 
-                 aria-describedby="addressHelpId"
-                 placeholder="Enter your adress" 
-                 />
-                 <div class="valid-feedback">Looks good!</div>
-                <div class="invalid-feedback">Please enter a valid address.</div>
-            </div>
-            <br>
-            <div class="mb-3">
-                <label for="" class="form-label">Email</label>
-                <input
-                type="email"
-                class="form-control"
-                name="email"
-                id="email"
-                aria-describedby="emailHelpId"
-                placeholder="abc@mail.com"
-                /> 
-                <div class="valid-feedback">Looks good!</div>
-                <div class="invalid-feedback">Please enter a valid email address.</div>               
-            </div>            </div>
-            
-            <div class="mb-2 ">
-                <label for="phone">Phone</label>
-                <input type="tel" 
-                class="form-control" 
-                id="phone" 
-                name="phone" 
-                placeholder="Enter your phone number" 
-                pattern="[0-9]{10}">
-                <div class="valid-feedback">Looks good!</div>
-                <div class="invalid-feedback">Please enter a valid 10-digit phone number.</div>
-            </div>
+            <div class="container">
+                <div class="mb-3">
+                    <label for="Full-name" class="form-label">Full <span class="text-success">Name</span></label>
+                    <input type="text" 
+                    class="form-control"
+                    id="fullname"
+                    name="Full-name" 
+                    placeholder="Enter your full name" 
+                    />
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">Please enter a valid name.</div>
+                </div>
+    
                 <br>
-            
-          <a
+    
+                <div    
+                    class="mb-3">
+                    <label for="address" class="form-label"><span class="text-success">Add</span>ress</label>
+                    <input type="text" 
+                    class="form-control" 
+                    id="address"
+                     name="address" 
+                     aria-describedby="addressHelpId"
+                     placeholder="Enter your adress" 
+                     />
+                     <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">Please enter a valid address.</div>
+                </div>
+                <br>
+                <div class="mb-3">
+                    <label for="" class="form-label"><span class="text-success">Em</span>ail</label>
+                    <input
+                    type="email"
+                    class="form-control"
+                    name="email"
+                    id="email"
+                    aria-describedby="emailHelpId"
+                    placeholder="abc@mail.com"
+                    /> 
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">Please enter a valid email address.</div>               
+                </div>           
+                
+                <div class="mb-3 ">
+                    <label for="phone" class="form-label"><span class="text-success">Ph</span>one</label>
+                    <input type="tel" 
+                    class="form-control" 
+                    id="phone" 
+                    name="phone" 
+                    placeholder="Enter your phone number" 
+                    pattern="[0-9]{10}">
+                    <div class="valid-feedback">Looks good!</div>
+                    <div class="invalid-feedback">Please enter a valid 10-digit phone number.</div>
+                </div>
+                    <br>
+                
+            </div>
+            <div class="container text-center">
+                <a
             name=""
             id=""
-            class="btn btn-primary"
+            class="btn btn-success"
             href="/Pages/home.html"
             role="button"
             >Confirm</a
@@ -110,25 +133,19 @@
           <a
             name=""
             id=""
-            class="btn btn-primary"
+            class="btn btn-warning"
             href="/Pages/task_dashboard.html"
             role="button"
-            >Continue as guest</a
-          >
-          
-        </div>
+            >Continue as guest</a>
+            </div>
 
-
-
-
-
-            <div class="valid-feedback"></div>
         </main>
-        <footer class="bg-dark text-white py-3">
-      <div class="text-center mt-5">
-        <p>© 2024. All rights reserved.</p>
-      </div>
-    </footer>
+
+        <footer class="bg-dark text-white text-center py-3">
+            <p>© 2024. All rights reserved.</p>
+      
+        </footer>
+
         <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
